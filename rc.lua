@@ -22,7 +22,7 @@ theme_path = "/usr/local/share/awesome/themes/default/theme"
 beautiful.init(theme_path)
 
 -- This is used later as the default terminal and editor to run.
-terminal = "xterm"
+terminal = "urxvt"
 editor = os.getenv("EDITOR") or "nano"
 editor_cmd = terminal .. " -e " .. editor
 
